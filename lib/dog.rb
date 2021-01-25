@@ -1,2 +1,6 @@
-class Dog
+class Dog < ActiveRecord::Base
+  binding.pry
+
 end
+
+
